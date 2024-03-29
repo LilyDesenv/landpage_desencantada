@@ -10,6 +10,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: variaveis.$fontPrincipal;
 }
 
 @mixin text($fontSize: 16px) {
@@ -26,6 +27,7 @@
 .body{
     background-color: variaveis.$corDeFundo;
     color: variaveis.$corTextoPrincipal;
+
 }  
 
 .text { 
