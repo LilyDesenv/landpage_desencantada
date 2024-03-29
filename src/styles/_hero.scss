@@ -1,0 +1,23 @@
+@use 'variaveis';
+
+.hero{
+    padding: 5.6vw;
+    min-height: 80vh;
+    background-image: url(../images/banner.jpg);
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+    @media (max-width: 768px){
+        background-image: url(../images/banner-sm.jpeg);
+        padding-top: calc(50vw + 25px);
+        background-size: contain;
+
+        margin-top: -30px; 
+        margin-bottom: 30px;
+        max-height: 600px;
+        min-height: 0vh;
+    }
+
+}
